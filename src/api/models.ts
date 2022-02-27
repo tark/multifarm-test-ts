@@ -1,0 +1,43 @@
+export type TokenTransferEvent = {
+  blockNumber: string //"13958500",
+  timeStamp: string //"1641560468",
+  hash: string //"0xd339f419d84af43012d1123b41708c88887386a078b00506bbac3d3fb66c67d7",
+  nonce: string //"106",
+  blockHash: string //"0xaf449bd6b04a771be33b52548f9409c0badaa2f2a820be874e676dfc1cb09df8",
+  from: string // "0x885d782b58fa757a3634415132b7f499c306da65",
+  contractAddress: string //"0xdec41db0c33f3f6f3cb615449c311ba22d418a8d",
+  to: string //"0x99f806e72c6a192a25e440757bafe9c9169b0c71",
+  value: string //"5074648797",
+  tokenName: string //"Lobi",
+  tokenSymbol: string //"LOBI",
+  tokenDecimal: string //"9",
+  transactionIndex: string //"47",
+  gas: string //"77135",
+  gasPrice: string //"93997620943",
+  gasUsed: string //"59737",
+  cumulativeGasUsed: string //"2621147",
+  input: string //"deprecated",
+  confirmations: string //"321031"
+}
+
+export type TransactionDetails = {
+  blockHash: string //"0xf850331061196b8f2b67e1f43aaa9e69504c059d3d3fb9547b04f9ed4d141ab7",
+  blockNumber: string //"0xcf2420",
+  from: string //"0x00192fb10df37c9fb26829eb2cc623cd1bf599e8",
+  gas: string //"0x5208",
+  gasPrice: string //"0x19f017ef49",
+  maxFeePerGas: string //"0x1f6ea08600",
+  maxPriorityFeePerGas: string //"0x3b9aca00",
+  hash: string //"0xbc78ab8a9e9a0bca7d0321a27b2c03addeae08ba81ea98b03cd3dd237eabed44",
+  input: string //"0x",
+  nonce: string //"0x33b79d",
+  to: string //"0xc67f4e626ee4d3f272c2fb31bad60761ab55ed9f",
+  transactionIndex: string //"0x5b",
+  value: string //"0x19755d4ce12c00",
+  type: string //"0x2",
+  accessList: string[],
+  chainId: string //"0x1",
+  v: string //"0x0",
+  r: string //"0xa681faea68ff81d191169010888bbbe90ec3eb903e31b0572cd34f13dae281b9",
+  s: string //"0x3f59b0fa5ce6cf38aff2cfeb68e7a503ceda2a72b4442c7e2844d63544383e3"
+}
